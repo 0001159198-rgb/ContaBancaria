@@ -41,7 +41,7 @@ public class contabancaria {
             this.saldo += valor;
             System.out.println("Saldo depositado");
         }else{
-            System.out.println("Falha em depositar");
+            System.out.println("Falha");
         }
     }
     //Metodo de sacar o dinheiro
