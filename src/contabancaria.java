@@ -3,7 +3,7 @@ public class contabancaria {
     private int numeroConta;
     private double saldo;
 
-    private contabancaria(String titular, int numeroConta, double saldo){
+    contabancaria(String titular, int numeroConta, double saldo){
         this.titular = titular;
         this.numeroConta = numeroConta;
         this.saldo = saldo;

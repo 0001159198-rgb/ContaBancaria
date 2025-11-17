@@ -28,10 +28,9 @@ public class banco {
         conta.sacar(valorSaque);
 
         // Exibe as informações finais da conta
-        public void exibirInformacoes() {
-            System.out.println("Titular da conta: " + titular);
-            System.out.println("Número da conta: " + numeroConta);
-            System.out.println("Saldo atual: R$ " + saldoInicial);
-        }
+        System.out.println("\n--- INFORMAÇÕES DA CONTA ---");
+        conta.exibirInformacoes();
+
+        sc.close();
     }
 }
