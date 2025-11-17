@@ -50,5 +50,10 @@ public class contabancaria {
             this.saldo -= valor;
         }
     }
+    public void exibirInformacoes() {
+        System.out.println("Titular da conta: " + titular);
+        System.out.println("Número da conta: " + numeroConta);
+        System.out.println("Saldo atual: R$ " + saldo);
+    }
 }
 
